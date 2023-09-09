@@ -33,13 +33,14 @@ function App() {
 
 
   return (
-    <div>
+    <div id='container'>
+      <h2>Alcometer</h2>
       <div>
-        <label>Weight in kilograms:  </label>
-        <input type='number' value={weight} onChange={e => setweight(e.target.value)}/>
+        <label id='a'>Weight in kilograms: </label> 
+        <input type='number' value={weight} onChange={e => setweight(e.target.value)} /> 
       </div>
       <div>
-      <label>Bottle: </label>
+      <label id='a'>Bottles: </label>
       <select value={bottles} onChange={e => setBottle(e.target.value)}>
         {
           num.map(bottle => (
@@ -49,7 +50,7 @@ function App() {
       </select>
       </div>
       <div>
-      <label>Time since started drinking: </label>
+      <label id='a'>Time since started drinking: </label>
       <select value={time} onChange={e => setTime(e.target.value)}>
       {
           num.map(hour => (
@@ -59,12 +60,12 @@ function App() {
       </select>
       </div>
       <div>
-      <label>Gender  </label>
-      <input type="radio" name="gender" value="female" defaultChecked onChange={e => setgender(e.target.value)}/><label>Female</label>
+      <label id='a'>Gender:  </label >
+      <input type="radio" name="gender" value="female" defaultChecked onChange={e => setgender(e.target.value)}/><label>Female  </label>
         <input type="radio" name="gender" value="male" onChange={e => setgender(e.target.value)}/><label>Male</label>
       </div>
       <div>
-        <label>Results: </label>
+        <label>Results:  </label>
       <output>{results.toFixed(2)} </output>
       </div>
       <div>

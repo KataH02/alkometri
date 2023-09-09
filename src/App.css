@@ -1,0 +1,52 @@
+body {
+    display:grid;
+    justify-items: center;
+    background-image: url(../sparkling-wine-7626984_1280.webp);
+}
+
+#container {
+    margin-top: 32px;
+    padding: 32px;
+    border: 3px black solid;
+    border-radius: 5px;
+    background-color: rgb(252, 252, 252);
+}
+
+div {
+    margin: 8px;
+    padding: 4px;
+    font-size: 22px;
+}
+
+h2 {
+    margin: 12px;
+    margin-bottom: 8px;
+}
+
+#a {
+    display: grid;
+    margin-bottom: 8px;
+}
+
+input, select, #a {
+    font-size: 22px;
+}
+
+button {
+    border: 2px black solid;
+    padding: 8px;
+    border-image: -webkit-linear-gradient(left,rgb(171, 152, 59), rgb(217, 217, 196) ,rgb(171, 152, 59), rgb(171, 152, 59))
+    1;
+    background-color: #000;
+    color: white;
+    font-size: 22px;
+}
+
+button:hover {
+    background: linear-gradient(to right, rgb(186, 171, 96), rgb(232, 233, 201),  rgb(217, 217, 196), rgb(186, 171, 96));
+    border-image: -webkit-linear-gradient(left, rgb(186, 171, 96), rgb(232, 233, 201), rgb(217, 217, 196), rgb(186, 171, 96))
+    1;
+    color:#000 ;
+    transition: 2s linear;
+    cursor: pointer;
+}
