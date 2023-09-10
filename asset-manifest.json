@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/alkometri/static/css/main.740b3e76.css",
+    "main.js": "/alkometri/static/js/main.65ed11a5.js",
+    "static/js/787.6871da40.chunk.js": "/alkometri/static/js/787.6871da40.chunk.js",
+    "static/media/sparkling-wine-7626984_1280.webp": "/alkometri/static/media/sparkling-wine-7626984_1280.bcfda3d1bf3d321b7a13.webp",
+    "index.html": "/alkometri/index.html",
+    "main.740b3e76.css.map": "/alkometri/static/css/main.740b3e76.css.map",
+    "main.65ed11a5.js.map": "/alkometri/static/js/main.65ed11a5.js.map",
+    "787.6871da40.chunk.js.map": "/alkometri/static/js/787.6871da40.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.740b3e76.css",
+    "static/js/main.65ed11a5.js"
+  ]
+}
